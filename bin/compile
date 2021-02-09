@@ -76,7 +76,7 @@ mkdir -p $BUILD_DIR/vendor/selenium/bin
 
 # Download selenium standalone server
 topic "Downloading and installing Selenium"
-selenium_url="http://selenium-release.storage.googleapis.com/3.6/selenium-server-standalone-3.6.jar"
+selenium_url="http://selenium-release.storage.googleapis.com/4.0/selenium-server-standalone-4.0.0-alpha-2.jar"
 curl $selenium_url -s -o $BUILD_DIR/vendor/selenium/selenium.jar
 
 topic "Writing profile script"
